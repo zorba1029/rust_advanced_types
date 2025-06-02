@@ -2,6 +2,9 @@
 
 Rust의 고급 타입 시스템 기능들을 학습하고 실습하기 위한 프로젝트다.
 
+- **[ref] (https://medium.com/@trek007/advanced-type-system-features-in-rust-a-deep-dive-into-type-level-programming-473cdcb8c7b5)**
+
+
 ## 📚 프로젝트 개요
 
 이 프로젝트는 **6가지 고급 Rust 타입 시스템 기능**을 시연한다:
@@ -48,7 +51,7 @@ cargo run --bin typesafe_builder_test
 cargo run
 ```
 
-## 📖 상세 문서
+## 📖 참조 문서
 
 - **[Higher-Kinded Types 가이드](readme-hkt.md)** - 타입 생성자 추상화와 Scala 비교
 - **[Generic Associated Types 가이드](readme-gat.md)** - GATs와 라이프타임 의존성
