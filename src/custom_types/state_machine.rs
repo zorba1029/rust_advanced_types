@@ -174,8 +174,10 @@ impl<State> Scheduler<State> {
     }
 }
 
-// Demonstration of type-level state enforcement
-pub fn demonstrate_type_safety() {
+/// 타입 안전성 검증 예제
+/// 
+/// 잘못된 상태 전환을 컴파일 타임에 방지하는 것을 확인한다.
+pub fn demonstrate_state_machine_safety() {
     println!("🔒 Demonstrating compile-time state safety:");
     
     let scheduler = Scheduler::new();

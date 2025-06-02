@@ -1,4 +1,4 @@
-use rust_higher_kined_types::scheduler::{Scheduler, Task, demonstrate_type_safety};
+use rust_higher_kined_types::state_machine::{Scheduler, Task, demonstrate_state_machine_safety};
 
 fn test_scheduler_type_level_state_machines() {
     println!("3. === Type-Level State Machines with Phantom Data ===");
@@ -66,7 +66,7 @@ fn test_scheduler_type_level_state_machines() {
 
     // 3. 타입 안전성 데모
     println!("[5] 🔒 Demonstrating compile-time state safety:");
-    demonstrate_type_safety();
+    demonstrate_state_machine_safety();
     println!();
 
     // 4. 에러 방지 예시 (주석으로 설명)

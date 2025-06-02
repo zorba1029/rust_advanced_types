@@ -130,8 +130,10 @@ impl<Name, Age, Email> PersonBuilder<Name, Age, Email> {
     }
 }
 
-// Demonstration function
-pub fn demonstrate_type_safety() {
+/// 타입 안전성 검증 예제
+/// 
+/// 필수 필드 누락을 컴파일 타임에 방지하는 것을 확인한다.
+pub fn demonstrate_builder_safety() {
     println!("🔒 Demonstrating compile-time builder safety:");
     
     let _builder = PersonBuilder::new();

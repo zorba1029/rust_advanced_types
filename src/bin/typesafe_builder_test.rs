@@ -67,7 +67,7 @@ fn test_typesafe_builder_pattern() {
 
     // 4. 타입 안전성 데모
     println!("[4] 🔒 Type Safety Demonstration:");
-    rust_higher_kined_types::custom_types::typesafe_builder::demonstrate_type_safety();
+    rust_higher_kined_types::custom_types::typesafe_builder::demonstrate_builder_safety();
     println!();
 
     // 5. 실용적 사용 예시
