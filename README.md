@@ -1,4 +1,4 @@
-# 🦀 Rust Higher-Kinded Types Study Project
+# 🦀 Rust Higher-Kinded Types Study
 
 Rust의 고급 타입 시스템 기능들을 학습하고 실습하기 위한 프로젝트다.
 

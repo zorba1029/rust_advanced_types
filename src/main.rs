@@ -15,7 +15,7 @@ fn main() {
     println!("   cargo run --bin hkt_test              # Higher-Kinded Types");
     println!("   cargo run --bin hrt_test              # Higher-Ranked Types");
     println!("   cargo run --bin gat_test              # Generic Associated Types");
-    println!("   cargo run --bin scheduler_test        # Type-Level State Machines");
+    println!("   cargo run --bin state_machine_test    # Type-Level State Machines");
     println!("   cargo run --bin const_generic_test    # Const Generics");
     println!("   cargo run --bin typesafe_builder_test # Type-Safe Builder Pattern");
     println!();
