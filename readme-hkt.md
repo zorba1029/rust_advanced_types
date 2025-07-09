@@ -392,5 +392,5 @@ Higher-Kinded Types는 함수형 프로그래밍의 핵심 개념을 Rust에서 
 ## 📚 **더 알아보기**
 
 - [Rust RFC 1598 - Generic Associated Types](https://rust-lang.github.io/rfcs/1598-generic_associated_types.html)
-- [Higher-Kinded Types in Rust](https://gist.github.com/14427/af90a21b917d2892eace0f8b9b62b5c8)
+- [Higher-Kinded Types in Rust](https://rustyyato.github.io/type/system,type/families/2021/02/15/Type-Families-1.html)
 - 프로젝트 코드: `src/container.rs`, `src/main.rs`의 `double_container()` 함수 
