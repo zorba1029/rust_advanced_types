@@ -1,4 +1,4 @@
-# Higher-Kinded Types (고차 타입) 가이드
+# Higher-Kinded Types (고차 종류 타입) 가이드
 
 ## 🤔 **Higher-Kinded Types가 무엇인가?**
 
