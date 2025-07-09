@@ -204,5 +204,3 @@ where
 
 ---
 
-필요시 `Monad`, `Applicative`, `Validated`, `Either` 등의 FP 패턴도 Rust 스타일로 확장 가능합니다. 또한 Elixir에서의 구현 방식도 protocol 기반으로 설명드릴 수 있어요.
-
