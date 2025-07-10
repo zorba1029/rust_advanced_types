@@ -6,3 +6,4 @@ pub use custom_types::state_machine;
 pub use custom_types::container;
 pub use custom_types::with_lifetime;
 pub use custom_types::typesafe_builder;
+pub use custom_types::functor_monad;

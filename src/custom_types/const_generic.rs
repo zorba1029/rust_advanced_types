@@ -163,5 +163,3 @@ pub fn compile_time_size_check() {
     println!("    Array size: {}", ARRAY_SIZE);
     println!("    Matrix dimensions: {}x{}", MATRIX_ROWS, MATRIX_COLS);
 }
-
-
