@@ -1,3 +1,6 @@
+// 
+// Higher-Ranked Types (HRT)
+// 
 use rust_higher_kined_types::with_lifetime::{process_any_lifetime, WordCounter, WithLifetime};
 use std::fmt::Debug;
 

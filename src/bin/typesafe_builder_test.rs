@@ -1,8 +1,7 @@
 //
 // Type-Safe Builder Pattern
 // -- Let's create a type-safe builder pattern with compile-time validation:
-//----------------------------------------------------------
-
+// 
 use rust_higher_kined_types::custom_types::{PersonBuilder, Person};
 
 fn test_typesafe_builder_pattern() {
